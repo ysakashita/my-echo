@@ -1,6 +1,6 @@
 NAME := my-echo
 REPOSITORY := ysakashita/my-echo
-TAG := 20221107
+TAG := 2022110701
 GOOS := linux
 GOARCH := amd64
 
