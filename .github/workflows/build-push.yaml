@@ -3,7 +3,7 @@ on: [pull_request]
 
 jobs:
   build:
-    name: build
+    name: build-test-push
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
