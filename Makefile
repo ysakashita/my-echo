@@ -1,8 +1,8 @@
 NAME := my-echo
 REPOSITORY := ysakashita/$(NAME)
-TAG := 20240710
-GOOS := linux
-GOARCH := amd64
+TAG := 20250807
+GOOS := darwin
+GOARCH := arm64
 
 .PHONY: build test image-build image-push clean
 build:
